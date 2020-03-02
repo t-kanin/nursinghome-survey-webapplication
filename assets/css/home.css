@@ -1,0 +1,123 @@
+.login_img {
+    width: 175px;
+}
+
+.feedback_img {
+    margin: 30px;
+    width: 100px;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.nursinghome {
+    grid-column: 1/4;
+}
+
+button {
+    color: #101207;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    min-width: 150px;
+    height: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+button:active {
+    background-color: #A1BC53 ;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+
+.instruction {
+    font-size: 15px;
+    font-family: Arial;
+    color: #808080;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.instruction:hover {
+    cursor: pointer;
+}
+
+.logins {
+    margin-top: 80px;
+    grid-column: 4/10;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.resident {
+    color:#101207;
+    margin: 15px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    grid-column: 1/7;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caregiver {
+    color: #101207;
+    margin: 15px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    grid-column: 7/13;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feedback {
+    height: 140px;
+    color: #101207;
+    margin: 15px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    grid-column: 4/10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.feedback:active {
+    background-color: #A1BC53;
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.feedback_grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.feedback_text {
+    grid-column: 2/9;
+    margin: 10px;
+}
+
+.resident:active {
+    background-color: #A1BC53;
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.caregiver:active {
+    background-color:  #A1BC53;
+    cursor: pointer;
+    transform: translateY(4px);
+}
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+}

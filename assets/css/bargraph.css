@@ -1,0 +1,31 @@
+@media (min-width: 990px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        /**optional offset from top**/
+        top: 2%;
+    }
+}
+
+@media (max-width:990px) {
+    img {
+        height: auto;
+    }
+}
+
+.chart{
+    vertical-align: center;
+}
+
+button {
+    background-color: #E1E0E8;
+    border: 2px solid #6C8032;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+

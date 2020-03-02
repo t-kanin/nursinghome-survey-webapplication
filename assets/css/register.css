@@ -1,0 +1,161 @@
+body{
+    /* top: -50%; */
+    top: 0;
+    /* left: -50%; */
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+.container{
+}
+header{
+    background: white;
+}
+#logo{
+    width: 14%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #CDDBA3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color:white;
+    background-color: #CDDBA3;
+}
+
+a {;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+
+}
+
+.active {
+    background-color: #A1BC53;
+}
+.card-body{
+    max-width: 400px;
+}
+h4{
+    font-weight: bold;
+    font-size: 28px;
+    color: #100a0b;
+}
+h3{
+    color:#100a0b;
+}
+
+.avatar{
+    max-width:100px;
+    width: 100px;
+    height: auto;
+    position: relative;
+}
+
+.error_handler{
+    font-size: 15px;
+}
+
+.btn-register,.reset_pass{
+    font-size: 15px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration-color: #100a0b;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: #CDDBA3;  /*E2CFD3*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    border: none;
+    transition: all 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*place holder */
+.form-control{
+    background-color: #f5f8ed;
+}
+
+/*drop down */
+#year, #month, #day{
+    width: 24.7%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background: url('https://image.flaticon.com/icons/svg/60/60995.svg') 95% / 15% no-repeat;   /* Add custom arrow */
+}
+#language {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background: url('https://image.flaticon.com/icons/svg/60/60995.svg') 95% / 7% no-repeat;   /* Add custom arrow */
+    /*../images/arrow.png*/
+}
+
+.homebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #101207;
+    margin: 20px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #101207;
+    margin: 20px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+/*placeholder */
+/*
+#level, #room,#name,#lastname {
+    background:#f5f8ed;
+}*/
+
+
+
+
+
+
+

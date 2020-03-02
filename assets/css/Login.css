@@ -1,0 +1,138 @@
+:root{
+    --c-green:#A1BC53;
+    --c-lavendar:#B5838D
+}
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+body {
+    font-family: Arial;
+    background-color: #F5F8ED;
+}
+
+.left {
+    float: left;
+    position: absolute;
+    width: 70%;
+}
+
+.grid-container {
+    width:100%;
+    float: left;
+    position: relative;
+    left: 5%;
+    display: inline-block;
+    justify-items: center;
+}
+
+img {
+
+    padding: 0.5%;
+    width: 12vw;
+    height: 19vh;
+    object-fit:cover;
+    overflow: hidden;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#background_img{
+    padding: 0% ;
+}
+
+/*.grid-container > div {*/
+/*    text-align: center;*/
+/*    padding: 20px 0;*/
+/*}*/
+
+.right {
+    width: 20%;
+    float: right;
+}
+
+.confirm {
+
+    height: 15vh;
+    display: block;
+    margin-left: 25%;
+    margin-top:1%;
+    width:50%;
+    position:relative;
+    top:2%;
+    text-align: center;
+    font-size: 5vw;
+    border-radius: 0vw;
+    background-color: #B5838D;
+    color: #E1E0E8;
+    border: 0.25vw solid #E1E0E8;
+}
+
+#error_message{
+    position:relative;
+    margin-left:21%;
+    text-align: center;
+    font-size: 3vw;
+    color: #D00000;
+}
+
+.button {
+    height: 30vh;
+    color: black;
+    text-align: center;
+    font-size: 4vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+    background-color: #a1bc52;
+    border: 0.25vw solid #4D6E50;
+    white-space: normal;
+    padding: 0vw;
+}
+
+.username-input{
+    height:0px;
+}
+
+.side-button {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    -webkit-appearance: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.confirm-button {
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: #E2CFD3;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    font-size: 30px;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+.div-around-button {
+    text-align: center;
+}
+
+.side-button:hover{
+    background-color: var(--c-green) ;
+    cursor: pointer;
+}
+.confirm-button:hover{
+    background-color: var(--c-lavendar) ;
+    cursor: pointer;
+}

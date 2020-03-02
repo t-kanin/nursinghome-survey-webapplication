@@ -1,0 +1,154 @@
+:root{
+    --c-whiteLavender:#F5EFF0;
+    --c-whiteGreen:#F5F8ED;
+    --c-blackLavender:#100A0B;
+    --c-blackGreen:#101207;
+    --c-lightLavender:#E2CFD3;
+    --c-lightGreen:#CDDBA3;
+    --c-green:#A1BC53;
+    --c-lavendar:#B5838D
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--c-whiteGreen) !important;
+}
+
+
+
+.fa-laugh{color:green;}
+.fa-smile{color:yellowgreen;}
+.fa-meh{color:orange;}
+.fa-frown{color:orangered;}
+.fa-angry{color:red;}
+.fa-times {color: var(--c-blackLavender);}
+
+.emojiClicked .fa-4x{color:var(--c-whiteLavender);}
+
+.button-text {
+
+}
+
+button#laugh.emojiClicked{background-color:green;}
+button#smile.emojiClicked{background-color:yellowgreen;}
+button#meh.emojiClicked{background-color:orange;}
+button#frown.emojiClicked{background-color:orangered;}
+button#angry.emojiClicked{background-color:red;}
+button#times.emojiClicked{background-color:var(--c-blackLavender);}
+
+.button2Clicked{
+    background-color: var(--c-lightLavender);
+    color: var(--c-blackLavender);
+}
+
+.emojiClicked{
+    background-color: var(--c-lightLavender);
+    color:var(--c-whiteLavender);
+}
+
+.emoji, .emojiClicked{
+    font-size:20px;
+    width: 16%;
+
+    height: 180px;
+    background-color: var(--c-whiteLavender);
+
+    border: 0;
+    text-align: center;
+
+    border-radius: 1vw;
+
+    padding: 0px;
+    vertical-align: bottom;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+}
+
+
+
+.emoji {
+    color: black;
+}
+
+
+
+
+#choice{
+    text-align: center;
+}
+
+.side-button {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    -webkit-appearance: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#myProgress {
+    border-style:solid;
+    border-color:var(--c-blackGreen);
+    border-width:0.2vw;
+    border-radius: 1vw;
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+#myBar {
+    margin: 0;
+    width: 1%;
+
+    background-color: var(--c-green);
+    line-height: 5vw;
+    color: black;
+    text-align: center;
+    border-radius: 0.8vw;
+}
+
+.confirm-button, .button2Clicked, .button2 {
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: #E2CFD3;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-color: #101207;
+    font-size: 30px;
+    -webkit-appearance: none;
+    text-decoration: none;
+}
+
+.button2 {
+    background-color: var(--c-whiteLavender);
+}
+
+#DaisyInQuestionnaire {
+    width: 250px;
+    height: auto;
+}
+
+.submit-button-div {
+    text-align: right;
+}
+
+.daisy-questionnaire-div {
+    text-align: center;
+}
+
+.side-button:hover{
+    background-color: var(--c-green) ;
+    cursor: pointer;
+}
+.button2Clicked:hover{
+    background-color: var(--c-lavendar) ;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+body {
+    /*background-color: #E1E0E8;*/
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*background-image:url(/assets/images/plant_background.jpg);
+    /*your background image
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+}
+
+
+header {
+    background-color: rgb(161,188,83);
+    opacity: 1;
+}
+
+nav {
+    background-color: rgb(161,188,83);
+    /*border-bottom:2px solid rgb(161,188,83);*/
+    border-bottom: 2px solid #4D6E50;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: rgb(161,188,83);
+    height: 50px;
+    width: 100%;
+    opacity: 0.9;
+    border-top: 2px solid #4D6E50;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+}

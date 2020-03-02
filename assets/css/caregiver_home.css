@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    width: 100%;
+}
+
+.container {
+    grid-row: 3;
+}
+
+input {
+    height: auto;
+    width: 200px;
+}
+
+#buttons {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#button_caption {
+    font-size: 20px;
+}
+
+#button {
+    text-align: center;
+}
+
+.circle {
+    height: 250px;
+    width: 250px;
+    background-color: #A1BC53;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 130px !important;
+    text-align: center;
+}
+
+.circle:hover {
+    cursor: pointer !important;
+}
+
+.logout {
+    color: #101207;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #CDDBA3;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logout:active {
+    color: #101207;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #A1BC53;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    border: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(4px);
+}
+
+.logout:hover {
+    cursor: pointer;
+    background-color: #A1BC53;
+}
+
+#button_caption {
+    color:#101207;
+}
